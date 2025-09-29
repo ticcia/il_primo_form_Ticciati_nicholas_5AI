@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Genera Figura</title>
+</head>
+<body>
+<h2>Generatore di figure</h2>
+<form action="figure.php" method="post">
+    <label for="num">Numero N:</label>
+    <input type="number" id="num" name="num" required><br><br>
+
+    <p>Seleziona la figura:</p>
+    <input type="radio" id="triangolo" name="figura" value="triangolo" required>
+    <label for="triangolo">Triangolo</label><br>
+
+    <input type="radio" id="quadrato" name="figura" value="quadrato">
+    <label for="quadrato">Quadrato</label><br>
+
+    <input type="radio" id="specchiato" name="figura" value="specchiato">
+    <label for="specchiato">Triangolo specchiato</label><br>
+
+    <input type="radio" id="cornice" name="figura" value="cornice">
+    <label for="cornice">Cornice</label><br><br>
+
+    <button type="submit">Genera</button>
+</form>
+</body>
+</html>
